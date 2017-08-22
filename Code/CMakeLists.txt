@@ -262,6 +262,10 @@ endif()
 if(SV_USE_MESHSIM)
         set(SV_MODULE_DIRS ${SV_MODULE_DIRS} "Source/Modules/Mesh/MeshSim")
 endif()
+
+if(SV_USE_MUPFES)
+        set(SV_MODULE_DIRS ${SV_MODULE_DIRS} "Source/Modules/Mupfes")
+endif()
 #-----------------------------------------------------------------------------
 
 #-----------------------------------------------------------------------------

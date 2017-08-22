@@ -140,6 +140,11 @@ option(SV_USE_MESHSIM_ADAPTOR "Build the adapter (Requires Fortran and MeshSim)"
 #-----------------------------------------------------------------------------
 
 #-----------------------------------------------------------------------------
+# MUPFES
+option(SV_USE_MUPFES "Use MUPFES for Simulation" OFF)
+#-----------------------------------------------------------------------------
+
+#-----------------------------------------------------------------------------
 # Modules Shared
 option(SV_USE_MODULES_SHARED_LIBRARIES "Option to build the thirdparty libs as shared" ON)
 
